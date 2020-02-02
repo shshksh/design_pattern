@@ -1,5 +1,6 @@
 # 디자인 패턴
 
+---
 - 소프트웨어 설계시 공통적으로 발생하는 문제에 대해 재사용 가능한 해결책. 
   각각의 상황을 해결하는데 사용하는 설계 방법 또는 템플릿이라고 할 수 있다. 
 - 코드의 불필요한 중복들을 상속과 인터페이스, 다형성 등 객체 지향 설계를 활용하여 해결할 수 있다. 
@@ -7,28 +8,29 @@
 - 어디까지나 문제 해결 방안 중 하나이기 때문에 모든 문제를 디자인 패턴으로 해결하려는것은 지양하는것이 좋다. 
 - 이 문서에서는 각각의 디자인 패턴을 소개하고 패턴의 장단점 및 적용 상황등을 다룰 예정이다.
 
-
+<br>
 
 ## 참고 서적
 
+---
 - 한국어로 번역된 서적 중 [GoF의 디자인 패턴][goflink]과 [Head First Design Patterns][headfirstlink]이 디자인 패턴의 기초 지침서로 알려져 있다.
 
 
 [goflink]: http://www.yes24.com/Product/Goods/17525598
 [headfirstlink]: http://www.yes24.com/Product/Goods/1778966?Acode=101
-
-
+<br>
 
 ## 분류
 
+---
 * GoF의 디자인 패턴에 따르면 23개의 디자인 패턴이 정리되어 있고 각각의 디자인 패턴은 **생성 패턴, 구조 
   패턴, 행위 패턴**으로 분류된다.
 
 * #### **생성(Creational) 패턴**
 
   - 추상 팩토리(Abstract Factory)
-  - 팩토리 메소드(Factory Method)
   - 빌더(Builder)
+  - 팩토리 메소드(Factory Method)
   - 프로토타입(Prototype)
   - 싱글톤(Singleton)
 
