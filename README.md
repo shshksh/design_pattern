@@ -40,7 +40,7 @@
 
 * #### **구조(Structural) 패턴**
 
-  - 어탭터(Adapter)
+  - 어댑터(Adapter)
   - 브릿지(Bridge)
   - 컴포지트(Composite)
   - 데코레이터(Decorator)
