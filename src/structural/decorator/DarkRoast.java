@@ -3,7 +3,7 @@ package structural.decorator;
 public class DarkRoast extends Beverage {
 
 	public DarkRoast() {
-		description = "��ũ �ν�Ʈ"	;
+		description = "다크 로스트";
 	}
 	
 	@Override

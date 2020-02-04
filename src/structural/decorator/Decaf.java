@@ -3,7 +3,7 @@ package structural.decorator;
 public class Decaf extends Beverage {
 
 	public Decaf() {
-		description = "��ī����";
+		description = "디카페인";
 	}
 	
 	@Override
