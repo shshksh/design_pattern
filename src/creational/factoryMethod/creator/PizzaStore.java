@@ -1,4 +1,6 @@
-package creational.factoryMethod;
+package creational.factoryMethod.creator;
+
+import creational.factoryMethod.product.Pizza;
 
 public abstract class PizzaStore {
 	

@@ -1,4 +1,4 @@
-package creational.factoryMethod.creator;
+package creational.factoryMethod.concretecreator;
 //package headFirstDP.factory;
 //
 //public class CaliforniaPizzaStore extends PizzaStore {

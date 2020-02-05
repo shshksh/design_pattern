@@ -1,8 +1,8 @@
-package creational.factoryMethod.creator;
+package creational.factoryMethod.concretecreator;
 
-import creational.factoryMethod.Pizza;
-import creational.factoryMethod.PizzaStore;
-import creational.factoryMethod.product.*;
+import creational.factoryMethod.product.Pizza;
+import creational.factoryMethod.creator.PizzaStore;
+import creational.factoryMethod.concreteproduct.*;
 
 public class NYPizzaStore extends PizzaStore {
 	protected Pizza createPizza (String item) {

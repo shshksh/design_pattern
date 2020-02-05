@@ -1,6 +1,6 @@
-package creational.factoryMethod.product;
+package creational.factoryMethod.concreteproduct;
 
-import creational.factoryMethod.Pizza;
+import creational.factoryMethod.product.Pizza;
 
 public class NYStyleCheesePizza extends Pizza {
 	public NYStyleCheesePizza() {

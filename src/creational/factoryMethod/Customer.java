@@ -1,7 +1,9 @@
 package creational.factoryMethod;
 
-import creational.factoryMethod.creator.ChicagoPizzaStore;
-import creational.factoryMethod.creator.NYPizzaStore;
+import creational.factoryMethod.concretecreator.ChicagoPizzaStore;
+import creational.factoryMethod.concretecreator.NYPizzaStore;
+import creational.factoryMethod.creator.PizzaStore;
+import creational.factoryMethod.product.Pizza;
 
 public class Customer {
 	

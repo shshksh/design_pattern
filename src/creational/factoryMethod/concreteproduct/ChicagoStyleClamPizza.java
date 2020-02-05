@@ -1,6 +1,6 @@
-package creational.factoryMethod.product;
+package creational.factoryMethod.concreteproduct;
 
-import creational.factoryMethod.Pizza;
+import creational.factoryMethod.product.Pizza;
 
 public class ChicagoStyleClamPizza extends Pizza {
 	public ChicagoStyleClamPizza() {
@@ -12,7 +12,7 @@ public class ChicagoStyleClamPizza extends Pizza {
 		toppings.add("Frozen Clams from Chesapeake Bay");
 	}
  
-	protected void cut() {
+	public void cut() {
 		System.out.println("Cutting the pizza into square slices");
 	}
 }

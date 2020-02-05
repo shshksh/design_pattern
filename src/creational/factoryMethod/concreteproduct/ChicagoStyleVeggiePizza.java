@@ -1,6 +1,6 @@
-package creational.factoryMethod.product;
+package creational.factoryMethod.concreteproduct;
 
-import creational.factoryMethod.Pizza;
+import creational.factoryMethod.product.Pizza;
 
 public class ChicagoStyleVeggiePizza extends Pizza {
 	public ChicagoStyleVeggiePizza() {
@@ -14,7 +14,7 @@ public class ChicagoStyleVeggiePizza extends Pizza {
 		toppings.add("Eggplant");
 	}
  
-	protected void cut() {
+	public void cut() {
 		System.out.println("Cutting the pizza into square slices");
 	}
 }
