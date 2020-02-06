@@ -8,11 +8,11 @@
 
 - 객체의 생성을 담당하는 클래스를 만들어 객체 생성을 위임한다.
   - 객체 생성이 필요한 클래스가 많을경우 생성을 담당하는 클래스만 변경하여 효율적으로 관리할 수 있다.
-- <img src="https://github.com/shhhhhhhhhhhh/practice/blob/master/designPattern/res/simple_factory_pattern.png?raw=true" alt="simple_factory_pattern" style="zoom: 80%;" />
+<img src="https://github.com/shhhhhhhhhhhh/practice/blob/master/designPattern/res/simple_factory_pattern.png?raw=true" alt="simple_factory_pattern" style="zoom: 80%;" />
 
 ## 구조
 
-- <img src="https://github.com/shhhhhhhhhhhh/practice/blob/master/designPattern/res/factory_method_pattern.png?raw=true" alt="factory_method_pattern" style="zoom: 80%;" />
+<img src="https://github.com/shhhhhhhhhhhh/practice/blob/master/designPattern/res/factory_method_pattern.png?raw=true" alt="factory_method_pattern" style="zoom: 80%;" />
 
 <br>
 
