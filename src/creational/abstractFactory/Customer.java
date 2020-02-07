@@ -1,6 +1,7 @@
 package creational.abstractFactory;
 
-import creational.abstractFactory.concretePizzaStore.NYPizzaStore;
+import creational.abstractFactory.Client.NYPizzaStore;
+import creational.abstractFactory.Client.PizzaStore;
 
 public class Customer {
     public static void main(String[] args) {
