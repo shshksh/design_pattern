@@ -6,7 +6,7 @@
 
 ## 구조
 
-<img src="https://github.com/shhhhhhhhhhhh/practice/blob/master/designPattern/res/abstract_factory_pattern.svg?raw=true" alt="abstract_factory_pattern" style="zoom: 80%;" />
+![abstract_factory_pattern](../../../res/abstract_factory_pattern.svg)
 
 <br>
 
