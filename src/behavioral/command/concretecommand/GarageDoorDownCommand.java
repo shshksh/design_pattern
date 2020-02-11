@@ -1,6 +1,7 @@
-package behavioral.command.commands;
+package behavioral.command.concretecommand;
 
-import behavioral.command.product.GarageDoor;
+import behavioral.command.command.Command;
+import behavioral.command.receiver.GarageDoor;
 
 public class GarageDoorDownCommand implements Command {
     GarageDoor garageDoor;

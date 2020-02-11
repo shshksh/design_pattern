@@ -1,4 +1,4 @@
-package behavioral.command.product;
+package behavioral.command.receiver;
 
 public class GarageDoor {
     public void up() {

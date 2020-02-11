@@ -1,6 +1,7 @@
-package behavioral.command.commands;
+package behavioral.command.concretecommand;
 
-import behavioral.command.product.Stereo;
+import behavioral.command.command.Command;
+import behavioral.command.receiver.Stereo;
 
 public class StereoOnWithCDCommand implements Command {
     Stereo stereo;

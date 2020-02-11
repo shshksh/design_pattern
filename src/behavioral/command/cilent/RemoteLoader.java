@@ -1,10 +1,11 @@
-package behavioral.command;
+package behavioral.command.cilent;
 
-import behavioral.command.commands.*;
-import behavioral.command.product.CeilingFan;
-import behavioral.command.product.GarageDoor;
-import behavioral.command.product.Light;
-import behavioral.command.product.Stereo;
+import behavioral.command.concretecommand.*;
+import behavioral.command.invoker.RemoteControlWithUndo;
+import behavioral.command.receiver.CeilingFan;
+import behavioral.command.receiver.GarageDoor;
+import behavioral.command.receiver.Light;
+import behavioral.command.receiver.Stereo;
 
 public class RemoteLoader {
 

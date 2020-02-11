@@ -1,7 +1,7 @@
-package behavioral.command;
+package behavioral.command.invoker;
 
-import behavioral.command.commands.Command;
-import behavioral.command.commands.NoCommand;
+import behavioral.command.command.Command;
+import behavioral.command.concretecommand.NoCommand;
 
 public class RemoteControlWithUndo {
     Command[] onCommands;

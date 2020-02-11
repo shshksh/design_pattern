@@ -1,6 +1,7 @@
-package behavioral.command.commands;
+package behavioral.command.concretecommand;
 
-import behavioral.command.product.CeilingFan;
+import behavioral.command.command.Command;
+import behavioral.command.receiver.CeilingFan;
 
 public class CeilingFanHighCommand implements Command {
     CeilingFan ceilingFan;

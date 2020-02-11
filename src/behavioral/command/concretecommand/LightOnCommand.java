@@ -1,6 +1,7 @@
-package behavioral.command.commands;
+package behavioral.command.concretecommand;
 
-import behavioral.command.product.Light;
+import behavioral.command.command.Command;
+import behavioral.command.receiver.Light;
 
 public class LightOnCommand implements Command {
     Light light;

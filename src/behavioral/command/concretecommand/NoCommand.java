@@ -1,4 +1,6 @@
-package behavioral.command.commands;
+package behavioral.command.concretecommand;
+
+import behavioral.command.command.Command;
 
 public class NoCommand implements Command {
     @Override
