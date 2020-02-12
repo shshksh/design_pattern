@@ -1,4 +1,4 @@
-package structural.adapter;
+package structural.adapter.adaptee;
 
 public interface Turkey {
     public void gobble();

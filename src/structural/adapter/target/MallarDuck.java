@@ -1,4 +1,6 @@
-package structural.adapter;
+package structural.adapter.target;
+
+import structural.adapter.target.Duck;
 
 public class MallarDuck implements Duck {
     @Override

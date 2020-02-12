@@ -1,4 +1,7 @@
-package structural.adapter;
+package structural.adapter.adapter;
+
+import structural.adapter.target.Duck;
+import structural.adapter.adaptee.Turkey;
 
 public class TurkeyAdapter implements Duck {
     Turkey turkey;

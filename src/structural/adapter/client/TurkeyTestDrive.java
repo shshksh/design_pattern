@@ -1,4 +1,9 @@
-package structural.adapter;
+package structural.adapter.client;
+
+import structural.adapter.target.MallarDuck;
+import structural.adapter.adaptee.WildTurkey;
+import structural.adapter.adapter.TurkeyAdapter;
+import structural.adapter.target.Duck;
 
 public class TurkeyTestDrive {
     public static void main(String[] args) {

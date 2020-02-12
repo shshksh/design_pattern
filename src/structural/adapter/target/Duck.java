@@ -1,4 +1,4 @@
-package structural.adapter;
+package structural.adapter.target;
 
 public interface Duck {
     public void quack();
