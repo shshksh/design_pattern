@@ -1,4 +1,7 @@
-package behavioral.iterator;
+package behavioral.iterator.client;
+
+import behavioral.iterator.MenuItem;
+import behavioral.iterator.aggregate.Menu;
 
 import java.util.Iterator;
 

@@ -1,4 +1,6 @@
-package behavioral.iterator;
+package behavioral.iterator.concreteiterator;
+
+import behavioral.iterator.MenuItem;
 
 import java.util.Iterator;
 

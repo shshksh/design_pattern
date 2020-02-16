@@ -1,8 +1,12 @@
-package behavioral.iterator;
+package behavioral.iterator.concreteaggregate;
+
+import behavioral.iterator.concreteiterator.DinerMenuIterator;
+import behavioral.iterator.aggregate.Menu;
+import behavioral.iterator.MenuItem;
 
 import java.util.Iterator;
 
-public class DinerMenu implements Menu{
+public class DinerMenu implements Menu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;

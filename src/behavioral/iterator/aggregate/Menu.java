@@ -1,4 +1,4 @@
-package behavioral.iterator;
+package behavioral.iterator.aggregate;
 
 import java.util.Iterator;
 

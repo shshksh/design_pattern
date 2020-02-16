@@ -1,5 +1,10 @@
 package behavioral.iterator;
 
+import behavioral.iterator.client.Waitress;
+import behavioral.iterator.concreteaggregate.CafeMenu;
+import behavioral.iterator.concreteaggregate.DinerMenu;
+import behavioral.iterator.concreteaggregate.PancakeHouseMenu;
+
 public class MenuTestDrive {
     public static void main(String[] args) {
         PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();

@@ -1,11 +1,5 @@
 package structural.composite;
 
-import behavioral.iterator.Menu;
-import behavioral.iterator.MenuItem;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-
 public class Waitress {
 /*    ArrayList menus;
 

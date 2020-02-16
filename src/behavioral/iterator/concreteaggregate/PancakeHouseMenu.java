@@ -1,4 +1,7 @@
-package behavioral.iterator;
+package behavioral.iterator.concreteaggregate;
+
+import behavioral.iterator.aggregate.Menu;
+import behavioral.iterator.MenuItem;
 
 import java.util.ArrayList;
 import java.util.Iterator;
