@@ -1,4 +1,6 @@
-package structural.composite;
+package structural.composite.client;
+
+import structural.composite.component.MenuComponent;
 
 public class Waitress {
 /*    ArrayList menus;

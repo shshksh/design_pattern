@@ -1,5 +1,10 @@
 package structural.composite;
 
+import structural.composite.client.Waitress;
+import structural.composite.component.MenuComponent;
+import structural.composite.composite.Menu;
+import structural.composite.leaf.MenuItem;
+
 public class MenuTestDrive {
     public static void main(String[] args) {
         MenuComponent pancakeHouseMenu =

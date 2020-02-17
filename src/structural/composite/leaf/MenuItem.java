@@ -1,4 +1,7 @@
-package structural.composite;
+package structural.composite.leaf;
+
+import structural.composite.iterators.NullIterator;
+import structural.composite.component.MenuComponent;
 
 import java.util.Iterator;
 

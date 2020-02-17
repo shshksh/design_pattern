@@ -1,4 +1,7 @@
-package structural.composite;
+package structural.composite.iterators;
+
+import structural.composite.component.MenuComponent;
+import structural.composite.composite.Menu;
 
 import java.util.Iterator;
 import java.util.Stack;
@@ -19,7 +22,7 @@ public class CompositeIterator implements Iterator {
             // 스택에 반복자가 있다면 해당 반복자의 다음 원소를 구한다.
             MenuComponent component = (MenuComponent) iterator.next();
             // 해당 원소가 복합 객체일땐 복합 객체의 반복자를 스택에 push
-            if(component instanceof  Menu) {
+            if(component instanceof Menu) {
                 stack.push (component.createIterator());
             }
             return component;

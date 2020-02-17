@@ -1,4 +1,7 @@
-package structural.composite;
+package structural.composite.composite;
+
+import structural.composite.iterators.CompositeIterator;
+import structural.composite.component.MenuComponent;
 
 import java.util.ArrayList;
 import java.util.Iterator;

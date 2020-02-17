@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.iterators;
 
 import java.util.Iterator;
 

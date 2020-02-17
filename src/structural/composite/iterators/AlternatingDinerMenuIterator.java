@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.iterators;
 
 import behavioral.iterator.MenuItem;
 
