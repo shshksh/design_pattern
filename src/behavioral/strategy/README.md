@@ -8,7 +8,7 @@
 
 ## 구조
 
-<img src="https://github.com/shhhhhhhhhhhh/practice/blob/master/designPattern/res/strategy-pattern.png?raw=true" alt="strategy-pattern" style="zoom: 45%;" />
+<img src="https://github.com/shshksh/design_pattern/blob/master/res/strategy-pattern.png?raw=true" alt="strategy-pattern" style="zoom: 45%;" />
 
 - Context는 setter로 Strategy를 상황에 맞게 동적으로 설정할 수 있다. (Duck class)
 - Strategy는 인터페이스나 추상 클래스로 행동을 포함한다. (FlyBehavior, QuackBehavior)
